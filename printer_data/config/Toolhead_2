@@ -1,0 +1,12 @@
+[thermistor ATC Semitec 104NT-4-R025H42G]
+temperature1: 25
+resistance1: 100000
+temperature2: 160
+resistance2: 1074
+temperature3: 300
+resistance3: 82.78
+
+[extruder]
+sensor_type: ATC Semitec 104NT-4-R025H42G
+min_temp: -50 #<-- important
+max_temp: 300 #<-- important
