@@ -1,0 +1,20 @@
+#####################################################################
+##                      NEVERMORE
+#####################################################################
+[nevermore]
+bt_address: 28:CD:C1:0B:27:4C
+fan_power_passive: 0
+fan_power_automatic: 1
+fan_power_coefficient: 0.7
+fan_policy_cooldown: 900
+fan_policy_voc_passive_max: 200
+fan_policy_voc_improve_min: 25
+fan_thermal_limit_temperature_min: 50
+fan_thermal_limit_temperature_max: 60
+fan_thermal_limit_coefficient: 0
+voc_gating_threshold: 240
+
+[temperature_sensor nevermore_intake_VOC]
+sensor_type: NevermoreSensor
+sensor_kind: intake
+plot_voc: true
